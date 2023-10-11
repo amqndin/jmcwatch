@@ -1,7 +1,7 @@
 # jmcwatch/__init__.py
 
 # Define a package-level variable
-PACKAGE_VERSION = '0.1.2'
+PACKAGE_VERSION = '0.1.4'
 
 # Import the main function from your CLI module
 from .cli import main
