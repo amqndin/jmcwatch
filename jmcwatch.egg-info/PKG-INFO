@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: jmcwatch
+Version: 0.1.4
+Summary: Watch and compile JMC files. Simply type `jmcwatch` to use.
+Author: amandin
+Author-email: amawwdin@email.com
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click
+Requires-Dist: watchdog
+
+# Automatically Compile Your JMC Code on Save!
+
+## Why?
+Wingedseal, the CEO of JMC, has refused to implement this feature. So, I thought, "Why not?"
+
+![Proof](images/proof.png)
+
+## How?
+Simply use the `jmcwatch` command while your terminal is in your JMC project directory. Every time you save any of your .jmc files, it will automatically run `jmc compile`.
+
+## Contact Me
+- Discord: @amandin
+- Telegram: @amwndin
