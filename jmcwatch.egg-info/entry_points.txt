@@ -1,0 +1,2 @@
+[console_scripts]
+jmcwatch = jmcwatch.cli:main

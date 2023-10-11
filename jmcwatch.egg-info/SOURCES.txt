@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+license
+setup.py
+jmcwatch/__init__.py
+jmcwatch/cli.py
+jmcwatch.egg-info/PKG-INFO
+jmcwatch.egg-info/SOURCES.txt
+jmcwatch.egg-info/dependency_links.txt
+jmcwatch.egg-info/entry_points.txt
+jmcwatch.egg-info/requires.txt
+jmcwatch.egg-info/top_level.txt
