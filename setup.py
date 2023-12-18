@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='jmcwatch',
-    version='0.1.4',
+    version='1.5.4',
     packages=find_packages(),
     entry_points={
         'console_scripts': [
@@ -11,8 +11,10 @@ setup(
     },
     install_requires=[
         'click',
-        'watchdog',
-        'jmcfunction @ git+https://github.com/WingedSeal/jmc.git#subdirectory=src',
+        'watchdog'
+    ],
+    dependency_links=[
+        'git+https://github.com/WingedSeal/jmc.git#subdirectory=src',
     ],
     author='amandin',
     author_email='amawwdin@email.com',
