@@ -12,10 +12,7 @@ class JMCWatchdog(FileSystemEventHandler):
 
 	def on_any_event(self, event):
 		if not self.compilation_needed and '.jmc' in event.src_path:
-			compile_result = subprocess.run('jmc compile',
-											capture_output=True,
-											text=True,
-											shell=True)
+			compile_result = subprocess.run('jmc compile',capture_output=True,text=True,shell=True)
 			print(compile_result.stdout)
 			self.compilation_needed = True
 
