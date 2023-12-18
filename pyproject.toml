@@ -1,6 +1,6 @@
 [project]
 name = "jmcwatch"
-version = "1.5.2"
+version = "1.5.3"
 authors = []
 readme = './README.md'
 dependencies = ['click', 'watchdog']
