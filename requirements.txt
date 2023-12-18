@@ -1,3 +1,0 @@
-click
-watchdog
-git+https://github.com/WingedSeal/jmc.git@src#egg=jmc

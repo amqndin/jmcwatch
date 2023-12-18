@@ -2,18 +2,21 @@ from setuptools import setup, find_packages
 
 setup(
     name='jmcwatch',
-    version='1.5.6',
+    version='1.5.4',
     packages=find_packages(),
     entry_points={
         'console_scripts': [
             'jmcwatch=jmcwatch.cli:main',
         ],
     },
-    # install_requires=[
-    #     'click',
-    #     'watchdog',
-    #     'jmcfunction'
-    # ],
+    install_requires=[
+        'click',
+        'watchdog',
+        'jmcfunction'
+    ],
+    dependency_links=[
+        'git+https://github.com/WingedSeal/jmc.git@src#egg=jmc'
+    ],
     author='amandin',
     author_email='amawwdin@email.com',
     description='Watch and compile JMC files. Simply type `jmcwatch` to use.',
