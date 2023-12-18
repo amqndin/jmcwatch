@@ -14,9 +14,6 @@ setup(
         'watchdog',
         'jmcfunction'
     ],
-    dependency_links=[
-        'git+https://github.com/WingedSeal/jmc.git@src#egg=jmc'
-    ],
     author='amandin',
     author_email='amawwdin@email.com',
     description='Watch and compile JMC files. Simply type `jmcwatch` to use.',
