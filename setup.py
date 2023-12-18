@@ -12,6 +12,7 @@ setup(
     install_requires=[
         'click',
         'watchdog',
+        'jmcfunction @ git+https://github.com/WingedSeal/jmc.git#subdirectory=src',
     ],
     author='amandin',
     author_email='amawwdin@email.com',
