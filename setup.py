@@ -12,7 +12,7 @@ setup(
     install_requires=[
         'click',
         'watchdog',
-        'git+https://github.com/WingedSeal/jmc.git@src'
+        'https://github.com/WingedSeal/jmc.git@src'
     ],
     author='amandin',
     author_email='amawwdin@email.com',
