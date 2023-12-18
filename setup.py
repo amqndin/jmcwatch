@@ -12,7 +12,7 @@ setup(
     install_requires=[
         'click',
         'watchdog',
-        'jmc'
+        'jmcfunction'
     ],
     dependency_links=[
         'git+https://github.com/WingedSeal/jmc.git@src#egg=jmc'
