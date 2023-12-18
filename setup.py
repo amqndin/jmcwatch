@@ -11,10 +11,8 @@ setup(
     },
     install_requires=[
         'click',
-        'watchdog'
-    ],
-    dependency_links=[
-        'git+https://github.com/WingedSeal/jmc.git#subdirectory=src',
+        'watchdog',
+        'git+https://github.com/WingedSeal/jmc.git@src'
     ],
     author='amandin',
     author_email='amawwdin@email.com',
