@@ -1,4 +1,4 @@
-[project.dynamic]
+[project]
 name = "jmcwatch"
 version = "1.5.3"
 authors = []
