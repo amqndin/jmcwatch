@@ -3,7 +3,10 @@ name = "jmcwatch"
 version = "1.5.2"
 authors = []
 readme = './README.md'
-dependencies = ['click', 'watchdog', 'git+https://github.com/WingedSeal/jmc.git#subdirectory=src']
+[tool.poetry.dependencies]
+click = "^8.1.7"
+watchdog = "^1.1.0"
+example-package = {git = "https://github.com/example/example-package"}
 scripts = {'jmcwatch'='jmcwatch.cli:main'}
 license = { text = "MIT" }
 description = "Compile JMC code on save. Simply type `jmcwatch` to use."

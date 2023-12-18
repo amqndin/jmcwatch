@@ -1,2 +1,4 @@
 dist/*
 build/*
+jmcwatch.egg-info/*
+jmcwatch.egg-info

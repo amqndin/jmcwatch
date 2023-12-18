@@ -1,16 +1,12 @@
 Metadata-Version: 2.1
 Name: jmcwatch
-Version: 1.5.1
-Summary: Compile JMC code on save. Simply type `jmcwatch` to use.
+Version: 1.5.2
+Summary: Watch and compile JMC files. Simply type `jmcwatch` to use.
 Author: amandin
 Author-email: amawwdin@email.com
 License: MIT
 Project-URL: Homepage, https://github.com/amawdiin/jmcwatch
 Project-URL: Issues, https://github.com/amawdiin/jmcwatch/issues
-Classifier: Programming Language :: Python :: 3
-Classifier: License :: OSI Approved :: MIT License
-Classifier: Operating System :: OS Independent
-Requires-Python: >=3.10
 Description-Content-Type: text/markdown
 License-File: LICENSE
 Requires-Dist: click
