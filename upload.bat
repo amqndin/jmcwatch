@@ -16,4 +16,3 @@ if not defined input (
 
 python setup.py sdist
 twine upload dist/* -u __token__ -p %pypi_token%
-echo twine upload dist/* -u __token__ -p %pypi_token%
