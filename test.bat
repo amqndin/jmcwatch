@@ -1,2 +1,2 @@
 @echo off 
-python jmcwatch/cli.py
+python jmcwatch/__main__.py
