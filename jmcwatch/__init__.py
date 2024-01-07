@@ -4,7 +4,7 @@
 # PACKAGE_VERSION = '0.1.4'
 
 # Import the main function from your CLI module
-from .cli import main
+from .__main__ import main
 
 # Initialize package-level configuration
 CONFIG = {

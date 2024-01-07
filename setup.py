@@ -6,7 +6,7 @@ setup(
     packages=find_packages(),
     entry_points={
         'console_scripts': [
-            'jmcwatch=jmcwatch.cli:main',
+            'jmcwatch=jmcwatch.__main__:main',
         ],
     },
     install_requires=[
