@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='jmcwatch',
-    version='1.5.7',
+    version='1.5.9',
     packages=find_packages(),
     entry_points={
         'console_scripts': [

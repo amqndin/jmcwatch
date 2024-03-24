@@ -20,7 +20,7 @@ class JMCWatchdog(FileSystemEventHandler):
 
 @click.command()
 def main():
-	"""Look for changes in .jmc files and compile them.\n
+	"""Look for changes in jmc related files and compile them.\n
 	To use simply type `jmcwatch` in the directory of your JMC project\n
 	JMCWatch is made by amandin. (discord handle)"""
 	event_handler = JMCWatchdog()
