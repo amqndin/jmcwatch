@@ -4,6 +4,7 @@ from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 import subprocess
 
+jmc_files = ['.jmc', '.hjmc', 'jmc.txt', 'jmc_config.json']
 
 class JMCWatchdog(FileSystemEventHandler):
 
@@ -11,7 +12,7 @@ class JMCWatchdog(FileSystemEventHandler):
 		self.compilation_needed = False
 
 	def on_any_event(self, event):
-		if not self.compilation_needed and '.jmc' in event.src_path:
+		if not self.compilation_needed and any(jmc_file in event.src_path for jmc_file in jmc_files):
 			compile_result = subprocess.run('jmc compile',capture_output=True,text=True,shell=True)
 			print(compile_result.stdout)
 			self.compilation_needed = True

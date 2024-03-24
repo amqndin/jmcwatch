@@ -1,3 +1,4 @@
+
 @echo off
 
 rd /S /Q "./build" >nul
