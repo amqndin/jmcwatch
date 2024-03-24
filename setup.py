@@ -16,7 +16,7 @@ setup(
     ],
     author='amandin',
     author_email='amawwdin@email.com',
-    description='Watch and compile JMC files. Simply type `jmcwatch` to use.',
+    description='Watch and compile JMC related files. Simply type `jmcwatch` to use.',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
     license='MIT',
